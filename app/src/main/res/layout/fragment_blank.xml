@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Constraint2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".BlankFragment" >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:id="@+id/Switzeland"
+        android:layout_width="0dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        android:background="#F44336"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Thai"
+        app:layout_constraintVertical_bias="0.823">
+
+        <FrameLayout
+            android:id="@+id/myFrame10"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@color/white"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="@+id/myFrame8"
+            app:layout_constraintEnd_toStartOf="@+id/myFrame8"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/myFrame8">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/myFrame8"
+            android:layout_width="25dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="50dp"
+            android:background="@color/white"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/myFrame9"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@color/white"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="@+id/myFrame10"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/myFrame8"
+            app:layout_constraintTop_toTopOf="@+id/myFrame10">
+
+        </FrameLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/Thai"
+        android:layout_width="0dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Madagaskar">
+
+        <FrameLayout
+            android:id="@+id/myFrame4"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="50dp"
+            android:background="@color/blue"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <FrameLayout
+            android:id="@+id/myFrame3"
+            android:layout_width="0dp"
+            android:layout_height="25dp"
+            android:background="@color/red"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <FrameLayout
+            android:id="@+id/myFrame5"
+            android:layout_width="0dp"
+            android:layout_height="25dp"
+            android:background="@color/red"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </FrameLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/Madagaskar"
+        android:layout_width="0dp"
+        android:layout_height="150dp"
+        android:background="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <FrameLayout
+            android:id="@+id/myFrame1"
+            android:layout_width="0dp"
+            android:layout_height="75dp"
+            android:layout_marginStart="100dp"
+            android:background="@color/green"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <FrameLayout
+            android:id="@+id/myFrame2"
+            android:layout_width="0dp"
+            android:layout_height="75dp"
+            android:layout_marginStart="100dp"
+            android:background="@color/red"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:id="@+id/Denmark"
+        android:layout_width="0dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        android:background="#F44336"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Thai"
+        app:layout_constraintVertical_bias="0.084">
+
+        <FrameLayout
+            android:id="@+id/myFrame6"
+            android:layout_width="25dp"
+            android:layout_height="150dp"
+            android:layout_marginEnd="250dp"
+            android:background="@color/white"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <FrameLayout
+            android:id="@+id/myFrame7"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:background="@color/white"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </FrameLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
